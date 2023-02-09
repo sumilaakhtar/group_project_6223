@@ -108,7 +108,7 @@ stacksData = {
 renderStack = (stack) => {
   document.getElementById("stack-list").innerHTML +=
     `
-    <div class="col-md-4 stack-modal-button" data-bs-toggle="modal" data-bs-target="#stackModal` +
+    <div class="col-md-4 stack-modal-button p-3" data-bs-toggle="modal" data-bs-target="#stackModal` +
     stack.id +
     `" >
     <span class="fa-stack fa-4x">
